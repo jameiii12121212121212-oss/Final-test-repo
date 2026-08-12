@@ -1,0 +1,18 @@
+Number Guessing Game Summary
+
+Implemented a simple browser-based React number guessing game.
+
+Changes:
+- Generates a random number between 1 and 100 when the game starts.
+- Adds a guess input and Guess button.
+- Displays Too high, Too low, or Correct! feedback.
+- Tracks and displays valid guess attempts.
+- Validates empty, non-numeric, decimal, and out-of-range guesses.
+- Adds a Restart Game button that resets the number, attempts, input, and messages.
+- Disables guessing after the correct answer.
+- Organizes the interactive logic in NumberGuessingGame.tsx.
+- Adds responsive, accessible styling and page metadata.
+
+Verification:
+- npm run lint passed.
+- npm run build passed.
